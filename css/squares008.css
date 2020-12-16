@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,600,700&display=swap');
+
+body {
+    background-color: black;
+    position: relative;
+}
+div#box1 {
+    display: inline-block;
+    position: relative;
+    background-image: url("../images/640px-Tie_collection_crop.jpg");
+    background-size: 320px;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink1 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 7;
+}
+div.trans {
+    position: absolute;
+    background-color: black;
+    opacity: 0.55;
+    width: 20em;
+    height: 5.25em;
+    top: 12.25em;
+    z-index: 3;
+}
+div#box2 {
+    display: inline-block;
+    position: relative;
+    background-image: url("../images/640px-Railroad_tieswoodconcrete.jpg");
+    background-size: 427px;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink2 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 7;
+}
+div#box3 {
+    display: inline-block;
+    position: relative;
+    background-image: url("../images/640px-Thai_Buffet_crop.jpg");
+    background-size: 320px;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink3 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 7;
+}
+h1 {
+    position: relative;
+    font-family: Cairo, sans-serif;
+    color: white;
+    font-size: 5em;
+    padding: 1.25em 0 1.25em 0;
+    font-weight: 200;
+    text-align: center;
+    z-index: 5;
+}
+
+td.top {
+    font-family: Cairo, sans-serif;
+    color: dimgray;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: .2em;
+    border-bottom: 2px solid dimgray;
+}
+td.middle {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 3em;
+    font-weight: 200;
+    line-height: 1.25em;
+    letter-spacing: .01em;
+}
+td.bottom {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 1em;
+    font-weight: 200;
+    letter-spacing: .05em;
+    line-height: 1.75em;
+}
+a, a.caption {
+    font-family: Cairo, sans-serif;
+    color: goldenrod;
+    font-size: 1em;
+    font-weight: 200;
+    text-decoration: none;
+    z-index: 10;
+}
+a, a.caption:hover {
+    font-weight: 600;
+    color: orange;
+}
+table {
+    position: fixed;
+    bottom: 4.5em;
+    left: 4.5em;
+}
+p.caption {
+    position: absolute;
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: .8em;
+    font-weight: 200;
+    letter-spacing: .05em;
+    margin-top: -10em;
+    z-index: 10;
+}
+
+div#box1  a:hover {
+    box-shadow: 0 0 90px darkgoldenrod;
+}
+div#box2 a:hover {
+    box-shadow: 0 0 90px darkgoldenrod;
+}
+div#box3 a:hover {
+    box-shadow: 0 0 90px darkgoldenrod;
+}

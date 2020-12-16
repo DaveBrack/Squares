@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,600,700&display=swap');
+
+body {
+    background-color: red;
+    /* position: relative; */
+}
+
+#white01 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 0em;
+    top: 0em;
+}
+#black01 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 10em;
+    top: 0em;
+}
+#white02 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 20em;
+    top: 0em;
+}
+#black02 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 30em;
+    top: 0em;
+}
+#white03 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 40em;
+    top: 0em;
+}
+#black03 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 50em;
+    top: 0em;
+}
+#white04 {
+    position: fixed;
+    background-color: white;
+    transform:rotate(5deg);
+    width: 10em;
+    height: 10em;
+    left: 60em;
+    top: 0em;
+}
+#black04 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 70em;
+    top: 0em;
+}
+#white05 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 80em;
+    top: 0em;
+}
+#black05 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 90em;
+    top: 0em;
+}
+#black06 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 0em;
+    top: 10em;
+}
+#white06 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 10em;
+    top: 10em;
+}
+#black07 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 20em;
+    top: 10em;
+}
+#white07 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 30em;
+    top: 10em;
+}
+#black08 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 40em;
+    top: 10em;
+}
+#white08 {
+    position: fixed;
+    background-color: white;
+    transform:rotate(15deg);
+    width: 10em;
+    height: 10em;
+    left: 50em;
+    top: 10em;
+}
+#black09 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 60em;
+    top: 10em;
+}
+#white09 {
+    position: fixed;
+    background-color: white;
+    transform:rotate(-5deg);
+    width: 10em;
+    height: 10em;
+    left: 70em;
+    top: 10em;
+}
+#black10 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 80em;
+    top: 10em;
+}
+#white10 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 90em;
+    top: 10em;
+}
+#white11 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 0em;
+    top: 20em;
+}
+#black11 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 10em;
+    top: 20em;
+}
+#white12 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 20em;
+    top: 20em;
+}
+#black12 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 30em;
+    top: 20em;
+}
+#white13 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 40em;
+    top: 20em;
+}
+#black13 {
+    position: fixed;
+    background-color: black;
+    transform:rotate(-10deg);
+    width: 10em;
+    height: 10em;
+    left: 50em;
+    top: 20em;
+}
+#white14 {
+    position: fixed;
+    background-color: white;
+    transform:rotate(-20deg);
+    width: 10em;
+    height: 10em;
+    left: 60em;
+    top: 20em;
+}
+#black14 {
+    position: fixed;
+    background-color: black;
+    transform:rotate(5deg);
+    width: 10em;
+    height: 10em;
+    left: 70em;
+    top: 20em;
+}
+#white15 {
+    position: fixed;
+    background-color: white;
+    transform:rotate(25deg);
+    width: 10em;
+    height: 10em;
+    left: 80em;
+    top: 20em;
+}
+#black15 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 90em;
+    top: 20em;
+}
+#black16 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 0em;
+    top: 30em;
+}
+#white16 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 10em;
+    top: 30em;
+}
+#black17 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 20em;
+    top: 30em;
+}
+#white17 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 30em;
+    top: 30em;
+}
+#black18 {
+    position: fixed;
+    background-color: black;
+    transform:rotate(25deg);
+    width: 10em;
+    height: 10em;
+    left: 40em;
+    top: 30em;
+}
+#white18 {
+    position: fixed;
+    background-color: white;
+    transform:rotate(10deg);
+    width: 10em;
+    height: 10em;
+    left: 50em;
+    top: 30em;
+}
+#black19 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 60em;
+    top: 30em;
+}
+#white19 {
+    position: fixed;
+    background-color: white;
+    transform:rotate(-35deg);
+    width: 10em;
+    height: 10em;
+    left: 70em;
+    top: 30em;
+}
+#black20 {
+    position: fixed;
+    background-color: black;
+    transform:rotate(45deg);
+    width: 10em;
+    height: 10em;
+    left: 80em;
+    top: 30em;
+}
+#white20 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 90em;
+    top: 30em;
+}
+
+
+#white21 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 0em;
+    top: 40em;
+}
+#black21 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 10em;
+    top: 40em;
+}
+#white22 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 20em;
+    top: 40em;
+}
+#black22 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 30em;
+    top: 40em;
+}
+#white23 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 40em;
+    top: 40em;
+}
+#black23 {
+    position: fixed;
+    background-color: black;
+    transform:rotate(-10deg);
+    width: 10em;
+    height: 10em;
+    left: 50em;
+    top: 40em;
+}
+#white24 {
+    position: fixed;
+    background-color: white;
+    transform:rotate(-20deg);
+    width: 10em;
+    height: 10em;
+    left: 60em;
+    top: 40em;
+}
+#black24 {
+    position: fixed;
+    background-color: black;
+    transform:rotate(5deg);
+    width: 10em;
+    height: 10em;
+    left: 70em;
+    top: 40em;
+}
+#white25 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 80em;
+    top: 40em;
+}
+#black25 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 90em;
+    top: 40em;
+}
+#black26 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 0em;
+    top: 50em;
+}
+#white26 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 10em;
+    top: 50em;
+}
+#black27 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 20em;
+    top: 50em;
+}
+#white27 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 30em;
+    top: 50em;
+}
+#black28 {
+    position: fixed;
+    background-color: black;
+    transform:rotate(25deg);
+    width: 10em;
+    height: 10em;
+    left: 40em;
+    top: 50em;
+}
+#white28 {
+    position: fixed;
+    background-color: white;
+    transform:rotate(10deg);
+    width: 10em;
+    height: 10em;
+    left: 50em;
+    top: 50em;
+}
+#black29 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 60em;
+    top: 50em;
+}
+#white29 {
+    position: fixed;
+    background-color: white;
+    transform:rotate(-35deg);
+    width: 10em;
+    height: 10em;
+    left: 70em;
+    top: 50em;
+}
+#black30 {
+    position: fixed;
+    background-color: black;
+    width: 10em;
+    height: 10em;
+    left: 80em;
+    top: 50em;
+}
+#white30 {
+    position: fixed;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    left: 90em;
+    top: 50em;
+}
+
+
+div#box1 {
+    display: inline-block;
+    position: relative;
+    background-color: orange;
+    opacity: .90;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+    z-index: 1;
+}
+a.divLink1 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 2;
+}
+div#box2 {
+    display: inline-block;
+    position: relative;
+    background-color: orange;
+    opacity: .90;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink2 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 2;
+}
+div#box3 {
+    display: inline-block;
+    position: relative;
+    background-color: orange;
+    opacity: .90;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink3 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 2;
+}
+h1 {
+    font-family: Cairo, sans-serif;
+    color: white;
+    font-size: 5em;
+    padding: 1.25em 0 1.25em 0;
+    font-weight: 200;
+    text-align: center;
+    z-index: 10;
+}
+td.top {
+    font-family: Cairo, sans-serif;
+    color: dimgray;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: .2em;
+    border-bottom: 2px solid dimgray;
+    z-index: 5;
+}
+td.middle {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 3em;
+    font-weight: 200;
+    line-height: 1.25em;
+    letter-spacing: .01em;
+    z-index: 5;
+}
+td.bottom {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 1em;
+    font-weight: 200;
+    letter-spacing: .05em;
+    line-height: 1.75em;
+    z-index: 5;
+}
+table {
+    position: fixed;
+    bottom: 4.5em;
+    left: 4.5em;
+    z-index: 5;
+}
+div#tablebkgrnd {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 13.5em;
+    background-color: black;
+    opacity: 0.85;
+}
+
+div#box1 a:hover {
+    background-color: orangered;
+    background-image: url("../images/crown.svg");
+    opacity: .6;
+}
+div#box2 a:hover {
+    background-color: orangered;
+    background-image: url("../images/crown.svg");
+    opacity: .6;
+}
+div#box3 a:hover {
+    background-color: orangered;
+    background-image: url("../images/angry.svg");
+    opacity: .6;
+}
+
+.vecteezy {
+    color: gold;
+    text-decoration: none;
+}
+.vecteezy:hover {
+    font-weight: 600;
+    color: orange;
+}

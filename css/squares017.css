@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,700&display=swap');
+
+@font-face {
+    font-family: "City-Bold";
+    src: url(../fonts/City-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "City-Medium";
+    src: url(../fonts/City-Medium.ttf) format("truetype");
+}
+
+body {
+    background-color: black;
+    margin: 0 4.5em;
+}
+
+h1 {
+    font-family: City-Bold, Cairo, sans-serif;
+    font-size: 18em;
+    line-height: .1em;
+    color: white;
+}
+
+#box_m {
+    height: 20em;
+    width: 100%;
+    border: 1px solid red;
+}
+#box_joe_foto {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 33%;
+    height: 35em;
+    background-color: purple;
+}
+#box_mike {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 1.5em 1.5em;
+    width: 64%;
+    height: 18em;
+    background-color: darkgreen;
+}
+#box_vbar_mike {
+    float: right;
+    margin: -15.1em 40.2em 0 0;
+    width: 15%;
+    height: 35em;
+    background-color: white;
+}
+
+/* TABLE */
+
+td.top {
+    font-family: Cairo, sans-serif;
+    color: dimgray;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: .2em;
+    border-bottom: 2px solid dimgray;
+    z-index: 12;
+}
+td.middle {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 3em;
+    font-weight: 200;
+    line-height: 1.25em;
+    letter-spacing: .01em;
+    z-index: 12;
+}
+td.bottom {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 1em;
+    font-weight: 200;
+    letter-spacing: .05em;
+    line-height: 1.75em;
+    z-index: 12;
+}
+table {
+    position: fixed;
+    bottom: 4.5em;
+    left: 4.5em;
+    z-index: 12;
+}
+div#tablebkgrnd {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 13.5em;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 11;
+}
+
+/* HOVERS */
+
+#tvshow {
+    color: gold;
+    text-decoration: none;
+}
+#tvshow:hover {
+    font-weight: 600;
+    color: orange;
+}

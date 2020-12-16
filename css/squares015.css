@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,600,700&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+body {
+    background-color:silver;
+    background-image:
+    radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+    background-size: 100px 50px;
+}
+
+.box {
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    background-color: red;
+    opacity: .9;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+
+#link {
+    position: absolute;
+    opacity: 1;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 2;
+}
+
+h1 {
+    font-family: Cairo, sans-serif;
+    color: white;
+    font-size: 4.8em;
+    padding: 1.35em 0 1.35em 0;
+    font-weight: 200;
+    text-align: center;
+    z-index: 10;
+}
+
+
+/* TABLE */
+
+td.top {
+    font-family: Cairo, sans-serif;
+    color: dimgray;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: .2em;
+    border-bottom: 2px solid dimgray;
+    z-index: 5;
+}
+td.middle {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 3em;
+    font-weight: 200;
+    line-height: 1.25em;
+    letter-spacing: .01em;
+    z-index: 5;
+}
+td.bottom {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 1em;
+    font-weight: 200;
+    letter-spacing: .05em;
+    line-height: 1.75em;
+    z-index: 5;
+}
+table {
+    position: fixed;
+    bottom: 4.5em;
+    left: 4.5em;
+    z-index: 5;
+}
+#tablebkgrnd {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 13.5em;
+    background-color: black;
+    opacity: 0.85;
+}
+
+/* ANCHORS */
+
+.box a:hover {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,0,1) 100%, rgba(255,0,0,1) 25%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(66%, rgba(255,255,0,1)), color-stop(100%, rgba(255,0,0,1))); /* safari4+,chrome */
+    background:-webkit-radial-gradient(center, ellipse cover, rgba(255,255,0,1) 100%, rgba(255,0,0,1) 25%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,0,1) 100%, rgba(255,0,0,1) 25%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,0,1) 100%, rgba(255,0,0,1) 25%); /* ie10+ */
+    background:radial-gradient(ellipse at center, rgba(255,255,0,1) 100%, rgba(255,0,0,1) 25%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+    mix-blend-mode: overlay;
+}
+#verou {
+    color: gold;
+    text-decoration: none;
+}
+#verou:hover {
+    font-weight: 600;
+    color: orange;
+}

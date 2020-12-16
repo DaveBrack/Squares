@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,600,700&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}    
+body {
+    background-image: repeating-linear-gradient(
+        -30deg,
+        gold,
+        gold 10px,
+        fuchsia 10px,
+        fuchsia 30px,
+        lime 30px,
+        lime 40px,
+        deepskyblue 40px,
+        deepskyblue 50px,
+        gold 50px,
+        gold 70px,
+        fuchsia 70px,
+        fuchsia 80px,
+        lime 80px,
+        lime 90px,
+        deepskyblue 90px,
+        deepskyblue 110px,
+        gold 110px,
+        gold 120px,
+        fuchsia 120px,
+        fuchsia 130px,
+        lime 130px,
+        lime 150px,
+        deepskyblue 150px,
+        deepskyblue 160px);
+}
+
+div#box1 {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    opacity: .6;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink1 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 2;
+}
+div#box2 {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    opacity: .6;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink2 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 2;
+}
+div#box3 {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    opacity: .6;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink3 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 2;
+}
+h1 {
+    font-family: Cairo, sans-serif;
+    color: white;
+    font-size: 5em;
+    padding: 1.25em 0 1.25em 0;
+    font-weight: 600;
+    text-align: center;
+    z-index: 10;
+}
+td.top {
+    font-family: Cairo, sans-serif;
+    color: dimgray;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: .2em;
+    border-bottom: 2px solid dimgray;
+    z-index: 5;
+}
+td.middle {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 3em;
+    font-weight: 200;
+    line-height: 1.25em;
+    letter-spacing: .01em;
+    z-index: 5;
+}
+td.bottom {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 1em;
+    font-weight: 200;
+    letter-spacing: .05em;
+    line-height: 1.75em;
+    z-index: 5;
+}
+table {
+    position: fixed;
+    bottom: 4.5em;
+    left: 4.5em;
+    z-index: 5;
+}
+div#tablebkgrnd {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 13.5em;
+    background-color: black;
+    opacity: 0.85;
+}
+
+a:hover {
+    background-color: white;
+    mix-blend-mode: difference;
+    -webkit-transtion: .4s;
+    transition: .4s;
+}

@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,700&display=swap');
+
+body {
+    background-color: black;
+}
+
+/* BOXES */
+
+#box1 {
+    position: absolute;
+    background-color: white;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+    z-index: 1;
+}
+#box1A {
+    position: absolute;
+    background-color: black;
+    width: 16em;
+    height: 16em;
+    margin: 6.5em 0 0 6.5em;
+    z-index: 2;
+}
+#box1B {
+    position: absolute;
+    background-color: white;
+    width: 12em;
+    height: 12em;
+    margin: 8.5em 0 0 8.5em;
+    z-index: 3;
+}
+#box1C {
+    position: absolute;
+    background-color: black;
+    width: 8em;
+    height: 8em;
+    margin: 10.5em 0 0 10.5em;
+    z-index: 4;
+}
+#box1D {
+    position: absolute;
+    background-color: white;
+    width: 4em;
+    height: 4em;
+    margin: 12.5em 0 0 12.5em;
+    z-index: 5;
+}
+.divLink1 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 5em;
+    left: 5em;
+    z-index: 10;
+}
+
+
+#box2 {
+    position: absolute;
+    background-color: white;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 29em;
+    z-index: 1;
+}
+#box2A {
+    position: absolute;
+    background-color: black;
+    width: 16em;
+    height: 16em;
+    margin: 6.5em 0 0 31em;
+    z-index: 2;
+}
+#box2B {
+    position: absolute;
+    background-color: white;
+    width: 12em;
+    height: 12em;
+    margin: 8.5em 0 0 33em;
+    z-index: 3;
+}
+#box2C {
+    position: absolute;
+    background-color: black;
+    width: 8em;
+    height: 8em;
+    margin: 10.5em 0 0 35em;
+    z-index: 4;
+}
+#box2D {
+    position: absolute;
+    background-color: white;
+    width: 4em;
+    height: 4em;
+    margin: 12.5em 0 0 37em;
+    z-index: 5;
+}
+.divLink2 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 5em;
+    left: 29.5em;
+    z-index: 10;
+}
+
+
+#box3 {
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 53.5em;
+    z-index: 1;
+}
+#box3A {
+    position: absolute;
+    background-color: black;
+    width: 16em;
+    height: 16em;
+    margin: 6.5em 0 0 55.5em;
+    z-index: 2;
+}
+#box3B {
+    position: absolute;
+    background-color: white;
+    width: 12em;
+    height: 12em;
+    margin: 8.5em 0 0 57.5em;
+    z-index: 3;
+}
+#box3C {
+    position: absolute;
+    background-color: gold;
+    width: 8em;
+    height: 8em;
+    margin: 10.5em 0 0 59.5em;
+    z-index: 4;
+}
+#box3D {
+    position: absolute;
+    background-color: white;
+    width: 4em;
+    height: 4em;
+    margin: 12.5em 0 0 61.5em;
+    z-index: 5;
+}
+.divLink3 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 5em;
+    left: 54em;
+    z-index: 10;
+}
+
+/* STRIPES */
+
+div#stripe01 {
+    position: fixed;
+    width: 100%;
+    top: 0em;
+    left: 0em;
+    height: 1em;
+    background-color: black;
+}
+div#stripe02 {
+    position: fixed;
+    width: 100%;
+    top: 1em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe03 {
+    position: fixed;
+    width: 100%;
+    top: 3em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe04 {
+    position: fixed;
+    width: 100%;
+    top: 5em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe05 {
+    position: fixed;
+    width: 100%;
+    top: 7em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe06 {
+    position: fixed;
+    width: 100%;
+    top: 9em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe07 {
+    position: fixed;
+    width: 63.5em;
+    top: 11em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe07B {
+    position: fixed;
+    width: 60em;
+    top: 11em;
+    left: 63.5em;
+    height: 2em;
+    background-color: gold;
+}
+div#stripe08 {
+    position: fixed;
+    width: 63.5em;
+    top: 13em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe08B {
+    position: fixed;
+    width: 60em;
+    top: 13em;
+    left: 63.5em;
+    height: 2em;
+    background-color: gold;
+}
+div#stripe09 {
+    position: fixed;
+    width: 63.5em;
+    top: 15em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe09B {
+    position: fixed;
+    width: 60em;
+    top: 15em;
+    left: 63.5em;
+    height: 4em;
+    background-color: gold;
+}
+div#stripe10 {
+    position: fixed;
+    width: 63.5em;
+    top: 17em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe10B {
+    position: fixed;
+    width: 60em;
+    top: 17em;
+    left: 63.5em;
+    height: 2em;
+    background-color: gold;
+}
+div#stripe11 {
+    position: fixed;
+    width: 100%;
+    top: 19em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe12 {
+    position: fixed;
+    width: 100%;
+    top: 21em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe13 {
+    position: fixed;
+    width: 100%;
+    top: 23em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe14 {
+    position: fixed;
+    width: 100%;
+    top: 25em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe15 {
+    position: fixed;
+    width: 100%;
+    top: 27em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe16 {
+    position: fixed;
+    width: 100%;
+    top: 29em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe17 {
+    position: fixed;
+    width: 100%;
+    top: 31em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe18 {
+    position: fixed;
+    width: 100%;
+    top: 33em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe19 {
+    position: fixed;
+    width: 100%;
+    top: 35em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe20 {
+    position: fixed;
+    width: 100%;
+    top: 37em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe21 {
+    position: fixed;
+    width: 100%;
+    top: 39em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe22 {
+    position: fixed;
+    width: 100%;
+    top: 41em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe23 {
+    position: fixed;
+    width: 100%;
+    top: 43em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe24 {
+    position: fixed;
+    width: 100%;
+    top: 45em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe25 {
+    position: fixed;
+    width: 100%;
+    top: 47em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+div#stripe26 {
+    position: fixed;
+    width: 100%;
+    top: 49em;
+    left: 0em;
+    height: 2em;
+    background-color: white;
+}
+div#stripe27 {
+    position: fixed;
+    width: 100%;
+    top: 51em;
+    left: 0em;
+    height: 2em;
+    background-color: black;
+}
+
+/* TABLE */
+
+td.top {
+    font-family: Cairo, sans-serif;
+    color: dimgray;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: .2em;
+    border-bottom: 2px solid dimgray;
+    z-index: 12;
+}
+td.middle {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 3em;
+    font-weight: 200;
+    line-height: 1.25em;
+    letter-spacing: .01em;
+    z-index: 12;
+}
+td.bottom {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 1em;
+    font-weight: 200;
+    letter-spacing: .05em;
+    line-height: 1.75em;
+    z-index: 12;
+}
+table {
+    position: fixed;
+    bottom: 4.5em;
+    left: 4.5em;
+    z-index: 12;
+}
+div#tablebkgrnd {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 13.5em;
+    background-color: black;
+    opacity: 0.85;
+    z-index: 11;
+}
+
+
+a:hover {
+    box-shadow: 20px 20px 80px black;
+}

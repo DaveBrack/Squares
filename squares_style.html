@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/squares_style.css">
+    <title>squares style guide</title>
+</head>
+<body>
+    <h1><span class="bold">squares</span> style guide</h1>
+    <p><span class="bold">What follows below are the primary building blocks.</span> To maintain interest over the open-ended life of this series, at one point or another each of these 'rules' is expected to be broken. In order to maintain a consistent look and feel, though, the majority of elements throughout the series should hew to these guidelines.</p>
+    <section>
+        <h2>colors</h2>
+        <p>The observant reader will already have noticed that this system gets ignored as soon as the third <span class="bold">squares</span> page. The majority of pages, though, should incorporate deep, rich, so-called 'jewel-tone' colors. <span class="bold">Backgrounds: Black,</span> to make the foreground colors pop, except where the background of the page is the primary focus.</p>
+        <div class="color gold">
+            <p class="color"><span class="bold">gold</span><br>#ffd700<br>rgb (255, 215, 0)<br>hsl (0.14, 1.00, 0.50)</p>
+        </div>
+        <div class="color green">
+            <p class="color"><span class="bold">lawn green</span><br>#7cfc00<br>rgb (124, 252, 0)<br>hsl (0.25, 1.00, 0.49)</p>
+        </div>
+        <div class="color blue">
+            <p class="color"><span class="bold">deep sky blue</span><br>#00bfff<br>rgb (0, 191, 255)<br>hsl (0.54, 1.00, 0.50)</p>
+        </div>
+        <div class="color orange">
+            <p class="color"><span class="bold">dark orange</span><br>#ff8c00<br>rgb (255, 140, 0)<br>hsl (0.09, 1.00, 0.50)</p>
+        </div>
+        <div class="color red">
+            <p class="color"><span class="bold">fire brick</span><br>#b22222<br>rgb (178, 34, 34)<br>hsl (0.00, 0.68, 0.42)</p>
+        </div>
+        <div class="color purple">
+            <p class="color"><span class="bold">dark magenta</span><br>#8b008b<br>rgb (139, 0, 139)<br>hsl (0.83, 1.00, 0.27)</p>
+        </div>
+        <div class="color darkgray">
+            <p class="color"><span class="bold">dark gray</span><br>#a9a9a9<br>rgb (169, 169, 169)<br>hsl (0.00, 0.00, 0.66)</p>
+        </div>
+        <div class="color dimgray">
+            <p class="color"><span class="bold">dim gray</span><br>#696969<br>rgb (69, 69, 69)<br>hsl (0.00, 0.00, 0.41)</p>
+        </div>
+        <div class="color black">
+            <p class="color"><span class="bold">black</span><br>#000000<br>rgb (0, 0, 0)<br>hsl (0.00, 0.00, 0.00)</p>
+        </div>
+    </section>
+    <section>
+        <h2>fonts</h2>
+        <p>Since this was never intended to be a copy-heavy exercise, two weights of a single font is all that is required.  More weights would be a nice-to-have, but restricting it to two helps keep the page load time down. As for <span class="bold">"Why Cairo?", </span> it is a surprisingly readable and perky font in spite of its squareish overall characteristics.</p>
+        <h3>Cairo 200<br>The quick brown fox jumps over the lazy dog.</h3>
+        <h3><span class="bold">Cairo 700<br>The quick brown fox jumps over the lazy dog.</span></h3>
+    </section>
+    <section>
+        <h2 id="textstyles">text styles</h2>
+        <p>You can futz with the colors, you can fart around with the background, but you'd better have a damn good reason to fuck up the type hierarchy. It is the primary constant on each page (aside from the placement of the squares themselves). The only variation needed so far has been to dump an 85% opacity black background underneath it when the background isn't black.</p>
+        <h4>copy in squares (&lt;h1&gt;)</h4>
+        <ul>
+            <li>font-size: <span class="bold">5em</span></li>
+            <li>font-weight: <span class="bold">200 (light)</span></li>
+            <li>color: <span class="bold">white</span></li>
+        </ul>
+        <h4>kicker (td.top)</h4>
+        <ul>
+            <li>font-size: <span class="bold">.85em</span></li>
+            <li>font-weight: <span class="bold">700 (bold)</span></li>
+            <li>color: <span class="bold">dimgray</span></li>
+            <li>letter-spacing: <span class="bold">.2em</span></li>
+            <li>border-bottom: <span class="bold">2px solid dimgray</span></li>
+        </ul>
+        <h4>headline (td.middle)</h4>
+        <ul>
+            <li>font-size: <span class="bold">3em</span></li>
+            <li>font-weight: <span class="bold">200 (light)</span></li>
+            <li>color: <span class="bold">darkgray</span></li>
+            <li>letter-spacing: <span class="bold">.01em</span></li>
+            <li>line-height: <span class="bold">1.25em</span></li>
+        </ul>
+        <h4>body copy (td.bottom)</h4>
+        <ul>
+            <li>font-size: <span class="bold">1em</span></li>
+            <li>font-weight: <span class="bold">200 (light)</span></li>
+            <li>color: <span class="bold">darkgray</span></li>
+            <li>letter-spacing: <span class="bold">.05em</span></li>
+            <li>line-height: <span class="bold">1.75em</span></li>
+        </ul>
+    </section>
+    <section>
+            <h2>...et la raison d'être</h2>
+            <p>The genesis for this series was to try to finally figure out how element positioning worked in CSS. (As of this writing, after completing "squares010", I'm still not there.) After the first couple of pages, though, it's become a test bed for other HTML and CSS learnings and discoveries.</p>
+            <p>The two constants throughout have been the <a href="#textstyles">copy style</a> and positioning (fixed at the bottom), and the size and position of the three squares themselves. As with the copy treatment, there better be a damn good reason for altering the squares' placement, as there was for <a href="squares003.html" target="_blank">squares003.</a></p>
+            <div class="em">
+                <h4 class="em">4.5em</h4>
+            </div>
+            <div class="msrmnt">
+                <h4 class="msrmnt">4.5em</h4>
+                <div class="square"></div>
+            </div>
+            <div class="em">
+                    <h4 class="em">4.5em</h4>
+            </div>
+            <div class="msrmnt">
+                <h4 class="msrmnt">4.5em</h4>
+                <div class="square"></div>
+            </div>
+            <div class="em">
+                <h4 class="em">4.5em</h4>
+            </div>
+            <div class="msrmnt">
+                <h4 class="msrmnt">4.5em</h4>
+                <div class="square"></div>
+            </div>
+        </section>
+</body>
+</html>

@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,700&display=swap');
+
+body {
+    /* background-color: black; */
+    position: relative;
+}
+div.stripe001 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe002 {
+    position: fixed;
+    top: 0;
+    left: 10px;
+    background-color: fuchsia;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe003 {
+    position: fixed;
+    top: 0;
+    left: 30px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe004 {
+    position: fixed;
+    top: 0;
+    left: 40px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe005 {
+    position: fixed;
+    top: 0;
+    left: 50px;
+    background-color: gold;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe006 {
+    position: fixed;
+    top: 0;
+    left: 70px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe007 {
+    position: fixed;
+    top: 0;
+    left: 80px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe008 {
+    position: fixed;
+    top: 0;
+    left: 90px;
+    background-color: deepskyblue;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe009 {
+    position: fixed;
+    top: 0;
+    left: 110px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe010 {
+    position: fixed;
+    top: 0;
+    left: 120px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe011 {
+    position: fixed;
+    top: 0;
+    left: 130px;
+    background-color: lime;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe012 {
+    position: fixed;
+    top: 0;
+    left: 150px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe013 {
+    position: fixed;
+    top: 0;
+    left: 160px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe014 {
+    position: fixed;
+    top: 0;
+    left: 170px;
+    background-color: fuchsia;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe015 {
+    position: fixed;
+    top: 0;
+    left: 190px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe016 {
+    position: fixed;
+    top: 0;
+    left: 200px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe017 {
+    position: fixed;
+    top: 0;
+    left: 210px;
+    background-color: gold;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe018 {
+    position: fixed;
+    top: 0;
+    left: 230px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe019 {
+    position: fixed;
+    top: 0;
+    left: 240px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe020 {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    background-color: deepskyblue;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe021 {
+    position: fixed;
+    top: 0;
+    left: 270px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe022 {
+    position: fixed;
+    top: 0;
+    left: 280px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe023 {
+    position: fixed;
+    top: 0;
+    left: 290px;
+    background-color: lime;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe024 {
+    position: fixed;
+    top: 0;
+    left: 310px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+div.stripe025 {
+    position: fixed;
+    top: 0;
+    left: 320px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe026 {
+    position: fixed;
+    top: 0;
+    left: 330px;
+    background-color: fuchsia;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe027 {
+    position: fixed;
+    top: 0;
+    left: 350px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe028 {
+    position: fixed;
+    top: 0;
+    left: 360px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe029 {
+    position: fixed;
+    top: 0;
+    left: 370px;
+    background-color: gold;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe030 {
+    position: fixed;
+    top: 0;
+    left: 390px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe031 {
+    position: fixed;
+    top: 0;
+    left: 400px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe032 {
+    position: fixed;
+    top: 0;
+    left: 410px;
+    background-color: deepskyblue;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe033 {
+    position: fixed;
+    top: 0;
+    left: 430px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe034 {
+    position: fixed;
+    top: 0;
+    left: 440px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe035 {
+    position: fixed;
+    top: 0;
+    left: 450px;
+    background-color: lime;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe036 {
+    position: fixed;
+    top: 0;
+    left: 470px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe037 {
+    position: fixed;
+    top: 0;
+    left: 480px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe038 {
+    position: fixed;
+    top: 0;
+    left: 490px;
+    background-color: fuchsia;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe039 {
+    position: fixed;
+    top: 0;
+    left: 510px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe040 {
+    position: fixed;
+    top: 0;
+    left: 520px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe041 {
+    position: fixed;
+    top: 0;
+    left: 530px;
+    background-color: gold;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe042 {
+    position: fixed;
+    top: 0;
+    left: 550px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe043 {
+    position: fixed;
+    top: 0;
+    left: 560px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe044 {
+    position: fixed;
+    top: 0;
+    left: 570px;
+    background-color: deepskyblue;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe045 {
+    position: fixed;
+    top: 0;
+    left: 590px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe046 {
+    position: fixed;
+    top: 0;
+    left: 600px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe047 {
+    position: fixed;
+    top: 0;
+    left: 610px;
+    background-color: lime;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe048 {
+    position: fixed;
+    top: 0;
+    left: 630px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+
+
+div.stripe049 {
+    position: fixed;
+    top: 0;
+    left: 640px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe050 {
+    position: fixed;
+    top: 0;
+    left: 650px;
+    background-color: fuchsia;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe051 {
+    position: fixed;
+    top: 0;
+    left: 670px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe052 {
+    position: fixed;
+    top: 0;
+    left: 680px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe053 {
+    position: fixed;
+    top: 0;
+    left: 690px;
+    background-color: gold;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe054 {
+    position: fixed;
+    top: 0;
+    left: 710px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe055 {
+    position: fixed;
+    top: 0;
+    left: 720px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe056 {
+    position: fixed;
+    top: 0;
+    left: 730px;
+    background-color: deepskyblue;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe057 {
+    position: fixed;
+    top: 0;
+    left: 750px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe058 {
+    position: fixed;
+    top: 0;
+    left: 760px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe059 {
+    position: fixed;
+    top: 0;
+    left: 770px;
+    background-color: lime;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe060 {
+    position: fixed;
+    top: 0;
+    left: 790px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe061 {
+    position: fixed;
+    top: 0;
+    left: 800px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe062 {
+    position: fixed;
+    top: 0;
+    left: 810px;
+    background-color: fuchsia;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe063 {
+    position: fixed;
+    top: 0;
+    left: 830px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe064 {
+    position: fixed;
+    top: 0;
+    left: 840px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe065 {
+    position: fixed;
+    top: 0;
+    left: 850px;
+    background-color: gold;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe066 {
+    position: fixed;
+    top: 0;
+    left: 870px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe067 {
+    position: fixed;
+    top: 0;
+    left: 880px;
+    background-color: lime;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe068 {
+    position: fixed;
+    top: 0;
+    left: 890px;
+    background-color: deepskyblue;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe069 {
+    position: fixed;
+    top: 0;
+    left: 910px;
+    background-color: gold;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe070 {
+    position: fixed;
+    top: 0;
+    left: 920px;
+    background-color: fuchsia;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe071 {
+    position: fixed;
+    top: 0;
+    left: 930px;
+    background-color: lime;
+    width: 20px;
+    height: 100%;
+    z-index: -1;
+}
+div.stripe072 {
+    position: fixed;
+    top: 0;
+    left: 950px;
+    background-color: deepskyblue;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+
+
+
+div#box1 {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink1 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 2;
+}
+div#box2 {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink2 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 2;
+}
+div#box3 {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink3 {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 2;
+}
+h1 {
+    font-family: Cairo, sans-serif;
+    color: white;
+    font-size: 5em;
+    padding: 1.25em 0 1.25em 0;
+    font-weight: 200;
+    text-align: center;
+    z-index: 10;
+}
+td.top {
+    font-family: Cairo, sans-serif;
+    color: dimgray;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: .2em;
+    border-bottom: 2px solid dimgray;
+    z-index: 5;
+}
+td.middle {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 3em;
+    font-weight: 200;
+    line-height: 1.25em;
+    letter-spacing: .01em;
+    z-index: 5;
+}
+td.bottom {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 1em;
+    font-weight: 200;
+    letter-spacing: .05em;
+    line-height: 1.75em;
+    z-index: 5;
+}
+table {
+    position: fixed;
+    bottom: 4.5em;
+    left: 4.5em;
+    z-index: 5;
+}
+div#tablebkgrnd {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 13.5em;
+    background-color: black;
+    opacity: 0.85;
+}
+
+div#box1 a:hover {
+    border: 18px dashed white;
+    top: -18px;
+    left: -18px;
+}
+div#box2 a:hover {
+    border: 18px dashed white;
+    top: -18px;
+    left: -18px;
+}
+div#box3 a:hover {
+    border: 18px dashed white;
+    top: -18px;
+    left: -18px;
+}

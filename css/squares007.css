@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,700&display=swap');
+
+body {
+    background-color: black;
+    position: relative;
+}
+div#box1 {
+    display: inline-block;
+    position: relative;
+    background-image: url("../images/5crop.jpg");
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+div#box1in {
+    display: inline-block;
+    position: absolute;
+    background-color: black;
+    width: 18.5em;
+    height: 18.5em;
+    margin: .75em;
+    z-index: 5;
+}
+.grad {
+    height: 20em;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+}
+a.divLink1 {
+    display: inline-block;
+    position: absolute;
+    width: 18.5em;
+    height: 18.5em;
+    left: 0em;
+    top: 0em;
+    text-decoration: none;
+    z-index: 10;
+}
+div#box2 {
+    display: inline-block;
+    position: relative;
+    background: repeating-linear-gradient(
+        -45deg,
+      white,
+      white 40px,
+      orange 40px,
+      orange 80px
+    );
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink2 {
+    display: inline-block;
+    position: absolute;
+    width: 18.5em;
+    height: 18.5em;
+    left: 0em;
+    top: 0em;
+    text-decoration: none;
+    z-index: 10;
+}
+div#box3 {
+    display: inline-block;
+    position: relative;
+    background-size: 320px;
+    width: 20em;
+    height: 20em;
+    margin: 4.5em 0 0 4.5em;
+}
+a.divLink3 {
+    display: inline-block;
+    position: absolute;
+    width: 18.5em;
+    height: 18.5em;
+    left: 0em;
+    top: 0em;
+    text-decoration: none;
+    z-index: 10;
+}
+h1 {
+    font-family: Cairo, sans-serif;
+    color: white;
+    font-size: 4.5em;
+    padding: 1.25em 0 1.25em 0;
+    font-weight: 200;
+    text-align: center;
+    z-index: 10;
+}
+
+td.top {
+    font-family: Cairo, sans-serif;
+    color: dimgray;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: .2em;
+    border-bottom: 2px solid dimgray;
+}
+td.middle {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 3em;
+    font-weight: 200;
+    line-height: 1.25em;
+    letter-spacing: .01em;
+}
+td.bottom {
+    font-family: Cairo, sans-serif;
+    color: darkgray;
+    font-size: 1em;
+    font-weight: 200;
+    letter-spacing: .05em;
+    line-height: 1.75em;
+}
+a {
+    font-family: Cairo, sans-serif;
+    color: goldenrod;
+    font-size: 1em;
+    font-weight: 200;
+    text-decoration: none;
+}
+table {
+    position: fixed;
+    bottom: 4.5em;
+    left: 4.5em;
+}
+
+a:hover {
+    border: 12px solid darkgoldenrod;
+    width: 18.5em;
+    height: 18.5em;
+}

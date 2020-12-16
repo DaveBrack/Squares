@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,700&display=swap');
+
+body {
+    font-family: Cairo, sans-serif;
+    font-weight: 200;
+    line-height: 1.4;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 9em;
+    position: relative;
+    top: 3em;
+}
+.bold {
+    font-weight: 700;
+}
+h1 {
+    font-size: 4em;
+    font-weight: 200;
+    line-height: 1;
+    margin-bottom: .1em;
+}
+h2 {
+    font-size: 2.2em;
+    margin-top: 1.5em;
+    margin-bottom: .1em;
+}
+h3 {
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.2;
+    color: darkgray;
+}
+h4 {
+    font-size: 1.4em;
+    color: darkgray;
+    margin: .5em 0 0 0;
+    padding: 0;
+}
+h4.em {
+    font-size: 1.4em;
+    font-weight: 200;
+    line-height: 1;
+    color: darkgray;
+    text-align: center;
+    padding-top: 6em;
+}
+h4.msrmnt {
+    font-size: 1.4em;
+    font-weight: 200;
+    line-height: 1;
+    color: darkgray;
+    text-align: center;
+    padding-bottom: .5em;
+}
+p.color {
+    padding-left: 1em;
+    color: white;
+}
+ul {
+    list-style-type: square;
+}
+a {
+    font-weight: 700;
+    color: orange;
+    text-decoration: none;
+}
+.color {
+    display: inline-block;
+    width: 10.5em;
+    height: 10.5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.gold {
+    background-color: gold;
+}
+.green {
+    background-color: lawngreen;
+}
+.blue {
+    background-color: deepskyblue;
+}
+.orange {
+    background-color: darkorange;
+}
+.red {
+    background-color: firebrick;
+}
+.purple {
+    background-color: darkmagenta;
+}
+.darkgray {
+    background-color: darkgray;
+}
+.dimgray {
+    background-color: dimgray;
+}
+.black {
+    background-color: black;
+}
+
+div.em {
+    width: 4.5em;
+    height: 16em;
+    display: inline-block;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+div.msrmnt {
+    width: 15em;
+    height: 16em;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+div.square {
+    width: 15em;
+    height: 15em;
+    background-color: darkgray;
+}
